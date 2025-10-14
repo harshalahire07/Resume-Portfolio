@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Info — Harshal</title>
+    <style>
+      :root {
+        --bg: #f4f6f8;
+        --card: #fff;
+        --accent: #2d3e50;
+        --muted: #6b7785;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-size: x-large;
+        font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--bg);
+        color: #223;
+      }
+      .wrap {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      .card {
+        width: 100%;
+        max-width: 720px;
+        background: var(--card);
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+        padding: 28px;
+      }
+      a.back {
+        display: inline-block;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 12px;
+      }
+      .back-btn {
+        display: inline-block;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 12px;
+      }
+      h2 {
+        margin: 6px 0 12px;
+        color: var(--accent);
+      }
+      p {
+        color: var(--muted);
+        margin: 6px 0;
+      }
+      .links a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <button class="back-btn" onclick="location.href='ResumeBasic.html'">
+          ← Back
+        </button>
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> HARSHAL AHIRE</p>
+        <p>
+          <strong>Email:</strong>
+          <a class="links" href="mailto:harshal.ahire@gmail.com"
+            >hda007132@gmail.com</a
+          >
+        </p>
+        <p><strong>Phone:</strong> +91 73856 48466</p>
+        <p><strong>Date of Birth:</strong> 20 November 2005</p>
+        <p><strong>Place of Birth:</strong> Dhule, India</p>
+        <p>
+          <strong>Address:</strong> Flat no.4, Avdhut Pride, Manekshwa Nagar,
+          Dwarka, Nashik - 422011
+        </p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a
+            class="links"
+            href="www.linkedin.com/in/harshal-ahire-4b8629383"
+            target="_blank"
+            >linkedin.com/in/harshal-ahire07</a
+          >
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            class="links"
+            href="https://github.com/harshalahire07"
+            target="_blank"
+            >github.com/harshalahire07</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

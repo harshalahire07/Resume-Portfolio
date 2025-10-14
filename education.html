@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Education — Harshal</title>
+    <style>
+      :root {
+        --bg: #f4f6f8;
+        --card: #fff;
+        --accent: #2d3e50;
+        --muted: #6b7785;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-size: x-large;
+        font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--bg);
+        color: #223;
+      }
+      .wrap {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      .card {
+        width: 100%;
+        max-width: 720px;
+        background: var(--card);
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+        padding: 28px;
+      }
+      a.back {
+        display: inline-block;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 12px;
+      }
+      .back-btn {
+        display: inline-block;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 12px;
+      }
+      h2 {
+        margin: 6px 0 12px;
+        color: var(--accent);
+      }
+      ul,
+      ol {
+        color: var(--muted);
+      }
+      .projects li {
+        margin: 10px 0;
+      }
+      .projects a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .certs {
+        margin-top: 12px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <button class="back-btn" onclick="location.href='ResumeBasic.html'">
+          ← Back
+        </button>
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Pursuing B.Tech in Computer Science / Engineering — Pimpri Chinchwad
+            University (2023 - Present). CGPA: 8.8
+          </li>
+          <li>
+            Higher Secondary (Class XII) — Matoshri Junior College (Science) —
+            64.83%
+          </li>
+          <li>Secondary (Class X) — M.S. Kothari Academy — 86%</li>
+        </ul>
+
+        <h2>Academic Projects</h2>
+        <ol class="projects">
+          <li>
+            Dr.Precaution — Flask web app for analyzing blood reports and
+            predicting diseases using Cohere API; integrated MySQL and user
+            authentication.
+            <a href="https://github.com/harshalahire07/My_First_Project"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            Smart Hydroponics System (IoT project) — ESP32 + Blynk to monitor
+            soil moisture and automate irrigation. Won 1st Prize at PCU Tech
+            Fest 2023.
+          </li>
+          <li>
+            Django-Project — Task manager web app using Django.
+            <a
+              href="https://github.com/harshalahire07/django_fullstackproject"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ol>
+
+        <h2>Certifications</h2>
+        <div class="certs">
+          <p>Red Hat System Administration I (RH124) — Red Hat</p>
+          <p>Intellipaat Python Preparatory Certificate</p>
+          <p>
+            Completed foundational training in Python and file handling,
+            functions, loops, and data handling concepts.
+          </p>
+        </div>
+
+        <p style="margin-top: 16px">
+          <strong>GitHub:</strong>
+          <a href="https://github.com/harshalahire07" target="_blank"
+            >github.com/harshalahire07</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

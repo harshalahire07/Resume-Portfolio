@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills — Harshal</title>
+    <style>
+      :root {
+        --bg: #f4f6f8;
+        --card: #fff;
+        --accent: #2d3e50;
+        --muted: #6b7785;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-size: x-large;
+        margin: 0;
+        font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--bg);
+        color: #223;
+      }
+      .wrap {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      .card {
+        width: 100%;
+        max-width: 720px;
+        background: var(--card);
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+        padding: 28px;
+      }
+      a.back {
+        display: inline-block;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 12px;
+      }
+      .back-btn {
+        display: inline-block;
+        color: #fff;
+        background: var(--accent);
+        border: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 12px;
+      }
+      h2 {
+        margin: 6px 0 12px;
+        color: var(--accent);
+      }
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 12px;
+      }
+      .skill-pill {
+        background: #fbfdff;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid #e6eef3;
+        color: #334455;
+      }
+      .list {
+        color: var(--muted);
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <button class="back-btn" onclick="location.href='ResumeBasic.html'">
+          ← Back
+        </button>
+        <h2>Skills</h2>
+        <h3>Technical</h3>
+        <div class="skills-grid">
+          <div class="skill-pill">Python</div>
+          <div class="skill-pill">Java (Basic)</div>
+          <div class="skill-pill">C</div>
+          <div class="skill-pill">C++</div>
+          <div class="skill-pill">SQL</div>
+          <div class="skill-pill">MySQL</div>
+          <div class="skill-pill">Linux (Red Hat based)</div>
+          <div class="skill-pill">Flask / Django</div>
+        </div>
+
+        <h3 style="margin-top: 16px">Soft skills</h3>
+        <div class="list">
+          <ul>
+            <li>Creative Thinking</li>
+            <li>Team work capability</li>
+            <li>Presentation</li>
+            <li>Problem-solving</li>
+            <li>Stress management</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
